@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.netbeans.org/ns/library-declaration/3" version="3.0">
+    <name>Comet-GlassFish-v3</name>
+    <type>j2se</type>
+    <description>Jars do Comet incluídos com a instalação do GlassFish registrada mais recentemente</description>
+    <display-name>Comet do GlassFish</display-name>
+    <volume>
+        <type>classpath</type>
+    </volume>
+    <volume>
+        <type>src</type>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+    </volume>
+    <volume>
+        <type>maven-pom</type>
+    </volume>
+    <properties/>
+</library>

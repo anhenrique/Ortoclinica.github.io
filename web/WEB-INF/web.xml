@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <servlet>
+        <servlet-name>ContatoModelo</servlet-name>
+        <servlet-class>modelo.ContatoModelo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdicionaUsuarioDAO</servlet-name>
+        <servlet-class>br.com.conexao.AdicionaUsuarioDAO</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>br.com.conexao.Login</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>FaleConoscoDAO</servlet-name>
+        <servlet-class>br.com.conexao.FaleConoscoDAO</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>FaleConoscoModelo</servlet-name>
+        <servlet-class>modelo.FaleConoscoModelo</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>AgendarConsultaDAO</servlet-name>
+        <servlet-class>br.com.conexao.AgendarConsultaDAO</servlet-class>
+    </servlet>
+    
+     
+  <servlet>
+        <servlet-name>MedicoDAO</servlet-name>
+        <servlet-class>br.com.conexao.MedicoDAO</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>VisualizarDAO</servlet-name>
+        <servlet-class>br.com.conexao.VisualizarDAO</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>Login_funcionario</servlet-name>
+        <servlet-class>br.com.conexao.Login_funcionario</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>ContatoModelo</servlet-name>
+        <url-pattern>/ContatoModelo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>AdicionaUsuarioDAO</servlet-name>
+        <url-pattern>/AdicionaUsuarioDAO</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>FaleConoscoModelo</servlet-name>
+        <url-pattern>/FaleConoscoModelo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>FaleConoscoDAO</servlet-name>
+        <url-pattern>/FaleConoscoDAO</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>AgendarConsultaDAO</servlet-name>
+        <url-pattern>/AgendarConsultaDAO</url-pattern>
+    </servlet-mapping>
+    
+        <servlet-mapping>
+        <servlet-name>MedicoDAO</servlet-name>
+        <url-pattern>/MedicoDAO</url-pattern>
+    </servlet-mapping>
+    
+      <servlet-mapping>
+        <servlet-name>VisualizarDAO</servlet-name>
+        <url-pattern>/VisualizarDAO</url-pattern>
+    </servlet-mapping>
+    
+      <servlet-mapping>
+        <servlet-name>Login_funcionario</servlet-name>
+        <url-pattern>/Login_funcionario</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
